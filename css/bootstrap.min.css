@@ -500,15 +500,17 @@ mark {
     content: "\2014\00A0"
 }
 
-.img-header {
-    max-width: 100%;
-    height: auto;
-}
 
 .img-fluid {
     max-width: 100%;
     height: auto;
 }
+
+.img-bPic {
+    width: 375px;
+    height: 495px;
+}
+
 
 .img-person {
     max-width: 100%;

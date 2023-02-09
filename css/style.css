@@ -102,8 +102,8 @@ h4,
 }
 
 .btn.btn-primary:hover {
-  border-color: #1f425c;
-  background: #1f425c;
+  border-color: #F17228;
+  background: #F17228;
 }
 
 .btn.btn-outline-white {
@@ -858,7 +858,7 @@ h4,
 
 .hero .slides img {
   position: absolute;
-  width: 380px;
+  width: 480px;
   border-radius: 100px;
   opacity: 0;
   -webkit-transition: 4s opacity ease;
@@ -1428,7 +1428,7 @@ h4,
 }
 
 .cta-section {
-  background: #1A374D;
+  background: #FFB30E;
 }
 
 .custom-block {
