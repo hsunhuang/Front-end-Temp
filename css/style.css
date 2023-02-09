@@ -231,6 +231,7 @@ h4,
 }
 
 .site-nav {
+  background-color:#d3c9af ;
   position: absolute;
   top: 0;
   z-index: 9;
@@ -796,9 +797,9 @@ h4,
 }
 
 .hero {
-  padding: 7rem 0 10rem 0;
+  padding: 10rem 0 5rem 0;
   background: #FFB30E;
-  margin-bottom: 100px;
+  /* margin-bottom: 50px; */
 }
 
 .hero.hero-inner {
@@ -853,7 +854,7 @@ h4,
 @media (max-width: 991.98px) {
   .hero .slides {
     left: 0;
-  }
+  }.hero
 }
 
 .hero .slides img {
@@ -873,7 +874,8 @@ h4,
 }
 
 .untree_co-section {
-  padding: 70px 0;
+  padding: 60px 0;
+
 }
 
 .media-thumb {
@@ -1150,12 +1152,14 @@ h4,
 }
 
 .feature-1-wrap {
-  position: relative;
+  position: relative ;
+
 }
 
 .feature-1 {
   padding: 30px;
-  background: rgba(26, 55, 77, 0.05);
+  /* background: rgba(26, 55, 77, 0.05); */
+  background-color: #d3c9af;
   border-radius: 20px;
   min-height: calc(50% - 15px);
   top: 0;
@@ -1231,7 +1235,7 @@ h4,
   position: absolute;
   z-index: 10;
   top: 50%;
-  left: 50%;
+  left: 35%;
   -webkit-transform: translateX(-50%) translateY(-50%);
   -ms-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
@@ -1402,8 +1406,14 @@ h4,
 
 .testimonial-section {
   background: #f8f9fa;
-  padding-top: 5rem !important;
-  padding-bottom: 7rem !important;
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important;
+}
+
+.testimonial-section2 {
+  background: #f8f9fa;
+  margin: 70px;
+
 }
 
 .two-col li {
